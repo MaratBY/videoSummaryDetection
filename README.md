@@ -5,7 +5,9 @@
 ### Installation and requirements:
 - Python >= 3.7
 
+
 Modules and packages:
+
 
 `
 $ python3 pip install -r requirements.txt
