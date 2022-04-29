@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-from video_summary.VGG.vgg16 import VGG16
+from VGG.vgg16 import VGG16
 from keras.models import Model
 from sklearn.decomposition import PCA
 

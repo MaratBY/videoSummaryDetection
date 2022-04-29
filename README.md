@@ -13,3 +13,5 @@ $ python3 utils/yt_downloader.py -yt_id "5L4DQfVIcdg" -o "./output/" -n "test.mp
 `
 
 ---
+
+First Step is to extract key video frames from video

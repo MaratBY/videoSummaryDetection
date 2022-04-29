@@ -15,7 +15,8 @@ def main():
     parser.add_argument("-yt_id", "--youtube_id", dest="youtube_id", type=str, help="YouTube id located in the url link,"
                                                                                    "e.g. youtube.com/watch?v=<__id__>")
     parser.add_argument("-o", "--output", dest="output", type=str, help="Saving directory, e.g. /data/videos/")
-    parser.add_argument("-n", "--name", dest="name", type=str, required=False, help="Custom name of the file.")
+    parser.add_argument("-n", "--name", dest="name", type=str, required=False, help="Custom name of the file.",
+                        default="test.mp4")
     args = parser.parse_args()
 
     # Command Line arguments
